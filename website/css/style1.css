@@ -4,7 +4,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../andaman.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://dmgupcwbwy0wl.cloudfront.net/system/images/000/187/872/111f4c66293203e69cda91beb002a1dc/x1000gt/paragliding-wide.jpg?1583244165');
     height: 100vh;
     background-size : cover ;
     background-position : center;
@@ -35,9 +35,6 @@ ul li.active a{
 }
 .title{
     position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
 }
 .title h1{
     color: white;
@@ -46,12 +43,21 @@ ul li.active a{
 }
 .title{
     position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
 }
 .title h2{
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     font-family:cursive;
+    position: fixed;
+    left:40px;
+}
+.title p{
+ position:fixed;
+  left: 40px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
 }
