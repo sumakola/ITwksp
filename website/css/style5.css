@@ -47,8 +47,10 @@ ul li.active a{
 }
 .title h2{
     color: black;
-    font-size: 25px;
+    font-size: 40px;
     font-family:cursive;
+    position:fixed;
+    left:500px;
 }
 .title p{
     position:fixed;
